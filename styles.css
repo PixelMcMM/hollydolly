@@ -2,6 +2,13 @@ body {
     text-align: center;
     background-color: #eddee8;
     font-family: Verdana;
+    margin: 0px
+}
+
+h1 {
+    font-size: 70px;
+    padding-top: 25px;
+    padding-bottom: 40px;
 }
 
 section {
@@ -16,31 +23,38 @@ section img {
     width: 500px;
 }
 
-.elizabeth td img {
-    -webkit-mask-image: url(./assets/sold.png);
-    mask-image: url(./assets/sold.png);
-    -webkit-mask-size: 70%;
-    mask-size: 70%;
-    -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat; 
-}
-
-table {
+section table {
     padding-left: 25px;
     padding-right: 25px;
 }
 
-table thead {
+section table thead {
     font-weight: bold;
     font-size: 30px;
 }
 
-table tbody {
+section table tbody {
     font-size: 25px;
 }
 
+footer {
+    background-color: #ae94b8;
+    padding-top: 20px;
+}
+
+#contactHeader span {
+    font-size: 30px;
+    font-weight: bold;
+}
+
 footer table {
+    padding-top: 0px;
+    padding-bottom:60px;
     display: flex;
+    justify-content: center;
+}
+
+footer a span {
     justify-content: center;
 }
 
@@ -49,7 +63,8 @@ footer img {
 }
 
 footer td {
-    padding: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 
     text-align: center;
 }
