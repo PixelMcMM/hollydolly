@@ -1,22 +1,55 @@
 body {
     text-align: center;
     background-color: #eddee8;
+    font-family: Verdana;
 }
 
-div {
+section {
     display: flex;
     justify-content: center;
+    padding-bottom: 40px;
 }
 
-img {
+section img {
     border: 7px solid #929292;
     border-radius: 10px;
     width: 500px;
-}   
+}
+
+.elizabeth td img {
+    -webkit-mask-image: url(./assets/sold.png);
+    mask-image: url(./assets/sold.png);
+    -webkit-mask-size: 70%;
+    mask-size: 70%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat; 
+}
 
 table {
     padding-left: 25px;
     padding-right: 25px;
-    padding-bottom: 25px;
 }
 
+table thead {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+table tbody {
+    font-size: 25px;
+}
+
+footer table {
+    display: flex;
+    justify-content: center;
+}
+
+footer img {
+    width: 40px;
+}
+
+footer td {
+    padding: 30px;
+
+    text-align: center;
+}
