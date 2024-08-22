@@ -1,6 +1,6 @@
 html {
-    margin-left: 125px;
-    margin-right: 125px;
+    margin-left: 8%;
+    margin-right: 8%;
     margin-top: -50px;
     margin-bottom: 0px;
     background-color: #ae94b8;
@@ -16,7 +16,7 @@ body {
 h1 {
     font-size: 60px;
     padding-top: 50px;
-    line-height: .5;
+    line-height: 1;
 }
 
 h2 {
@@ -108,4 +108,41 @@ footer td {
     padding-right: 15px;
 
     text-align: center;
+}
+
+@media only screen and (max-width: 1375px) {
+    html {
+        margin-left: 6%;
+        margin-right: 0%;
+        margin-top: -50px;
+        margin-bottom: 0px;
+        width: 80%;
+    }
+
+    header img {
+        padding-top: 30px;
+        width: 90%;
+    }
+
+    article {
+        padding-bottom: 40px;
+    }
+
+    article section {
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    
+    article table {
+        padding-top: 75px;
+    }
+
+    article table img {
+        width: 70%;
+    }
+
+
 }
