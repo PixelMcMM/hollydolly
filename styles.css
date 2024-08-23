@@ -19,12 +19,18 @@ h1 {
     line-height: 1;
 }
 
-h2 {
-    line-height: .4;
-    padding-top: 20px;
+#headerContact table {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#headerContact span {
+#headerContact table thead span {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#headerContact table tbody span {
     padding-left: 20px;
     padding-right: 20px;
     line-height: .5;
@@ -33,6 +39,7 @@ h2 {
 header div {
     font-size: 20px;
     line-height: 1.2;
+    padding-bottom: 20px;
 }
 
 header img {
@@ -113,10 +120,14 @@ footer td {
 @media only screen and (max-width: 1375px) {
     html {
         margin-left: 6%;
-        margin-right: 0%;
+        margin-right: 6%;
         margin-top: -50px;
         margin-bottom: 0px;
         width: 80%;
+    }
+
+    body {
+    width: 107%;
     }
 
     header img {
@@ -141,8 +152,12 @@ footer td {
     }
 
     article table img {
-        width: 70%;
+        width: 85%;
     }
 
+
+}
+
+@media only screen and (max-width: 850) {
 
 }
