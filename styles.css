@@ -155,6 +155,10 @@ footer td {
         width: 90%;
     }
 
+    .box {
+        width: 85%;
+    }
+
     article {
         padding-bottom: 40px;
     }
