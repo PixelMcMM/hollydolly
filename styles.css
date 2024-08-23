@@ -105,6 +105,9 @@ article td {
 #elizabeth span {
     color: red;
 }
+#peggy img {
+    width: 38%;
+}
 
 footer {
     background-color: #ae94b8;
@@ -128,7 +131,7 @@ footer a span {
 }
 
 footer img {
-    width: 40px;
+    width: 80px;
 }
 
 footer td {
@@ -177,6 +180,10 @@ footer td {
     }
 
     article table img {
+        width: 85%;
+    }
+
+    #peggy img {
         width: 85%;
     }
 
