@@ -68,45 +68,65 @@ header {
 
 .description {
     text-align: left;
-
 }
 
-article section {
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 40px;
+.puppyContainer {
+    display: normal;
+    width: 50%;
+    padding: 50px 0 40px;
+    margin: 0 auto;
 }
 
-article section img {
+.puppySlideshow {
+    padding: 0 0 0;
+    width: 100%;
+}
+.puppySlideshow img {
     border: 7px solid #929292;
     border-radius: 10px;
     width: 75%;
 }
 
-article section table {
-    padding-left: 25px;
-    padding-right: 25px;
+.puppies table {
+    padding: 0 25px;
+    width: 100%;
 }
 
-article section table thead {
+.puppies table thead {
     font-weight: bold;
     font-size: 30px;
 }
 
-article section table tbody {
+.puppies table tbody {
     font-size: 25px;
 }
 
-article td {
+.puppies td {
     padding-top: -10px;
 }
 
-#elizabeth span {
-    color: red;
+.alexander div {
+    float: left;
 }
-#peggy img {
-    width: 38%;
+
+.angelica div {
+    float: right;
+}
+
+.thomas div {
+    float: left;
+}
+
+.phillip div {
+    float: right;
+}
+
+.elizabeth div {
+    float: left;
+}
+
+.george div {
+    float: right;
 }
 
 footer {
@@ -163,33 +183,29 @@ footer td {
         width: 85%;
     }
 
-    article {
+    .puppies {
         padding-bottom: 40px;
+        width: 100%;
     }
 
-    article section {
-        display: table;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 0px;
-        padding-bottom: 0px;
+    .puppyContainer {
+        display: normal;
+        width: 100%;
+        padding: 50px 0 40px;
+        margin: 0 auto;
     }
     
-    article table {
+    .puppies table {
         padding-top: 75px;
     }
 
-    article table img {
-        width: 85%;
-    }
-
-    #peggy img {
-        width: 85%;
+    .puppies table img {
+        width: 80%;
     }
 
 
 }
 
-@media only screen and (max-width: 850) {
+@media only screen and (max-width: 850px) {
     
 }
